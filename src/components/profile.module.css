@@ -1,0 +1,12 @@
+.profile{
+    background-color: #424242;
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+    padding: 2rem 3rem;
+    
+}
+.profile h1{
+    font-size: 2rem;
+    color: white;
+}
