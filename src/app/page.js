@@ -1,6 +1,6 @@
-import Profile from '@/components/profile'
+import Profile from '@/components/profile-section/profile'
 import styles from "./page.module.css"
-import Technologies from '@/components/technologies'
+import Technologies from '@/components/technologies-section/technologies'
 
 
 export default function Home() {

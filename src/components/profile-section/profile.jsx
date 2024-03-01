@@ -1,12 +1,13 @@
 import styles from "./profile.module.css"
+import ProfileCard from "./profileCard"
 
 
 const Profile = () => {
     return (
       <div className={styles.profile}>
-        <h1>Acá irá el profile</h1>
+        <ProfileCard />
       </div>
     )
   }
   
-  export default Profile;
+  export default Profile
