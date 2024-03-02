@@ -1,5 +1,5 @@
 .technologies{
-    background-color: darkslateblue;
+    background-color: var(--portfolio-purple);
     font-size: 16px;
     height: 100vh;
     width: 100%;
@@ -7,5 +7,5 @@
 }
 .technologies h1{
     font-size: 2rem;
-    color: white;
+    color: var(--portfolio-white);
 }

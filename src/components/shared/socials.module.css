@@ -9,11 +9,11 @@
 .socialContainer{
     height: max-content;
     width: max-content;
-    background-color: white;
+    background-color: var(--portfolio-white);
     border-radius: 50%;
 }
 .socialImage{
-    width: 2.5rem;
     height: 2.5rem;
+    width: 2.5rem;
     padding: 8px;
 }

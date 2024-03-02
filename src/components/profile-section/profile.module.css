@@ -1,12 +1,35 @@
-.profile{
-    background-color: #424242;
+.profile {
+    background-color: var(--portfolio-dark);
+    position:relative;
     font-size: 16px;
     height: 100vh;
     width: 100%;
     padding: 2rem 3rem;
-    
+    overflow: visible;
+    z-index: 2;
 }
-.profile h1{
-    font-size: 2rem;
-    color: white;
+.infoPhotoContainer{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilePhotoContainer{
+    height: 100%;
+    width: 47.5vw;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.profilePhoto {
+    width: 33vw;
+    max-width: 550px;
+    border-radius: 50%;
+}
+.profileTechContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

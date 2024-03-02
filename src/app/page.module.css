@@ -6,9 +6,9 @@
   left: 0;
   transform-origin: top left;
   transform: skewY(-5deg);
-  background-color: #424242;
+  background-color: var(--portfolio-dark);
   z-index: 1;
 }
 .backgroundDiagonal {
-  background: darkslateblue;
+  background: var(--portfolio-purple);
 }
