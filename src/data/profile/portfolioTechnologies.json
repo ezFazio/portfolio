@@ -1,0 +1,26 @@
+[
+  {
+    "id": "reactjs",
+    "img": "/logos/reactjs.svg"
+  },
+  {
+    "id": "nodejs",
+    "img": "/logos/nodejs.svg"
+  },
+  {
+    "id": "nextjs",
+    "img": "/logos/nextjs.svg"
+  },
+  {
+    "id": "css",
+    "img": "/logos/css.svg"
+  },
+  {
+    "id": "github",
+    "img": "/logos/github.svg"
+  },
+  {
+    "id": "figma",
+    "img": "/logos/figma.svg"
+  }
+]

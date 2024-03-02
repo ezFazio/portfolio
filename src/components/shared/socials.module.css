@@ -1,0 +1,19 @@
+.socials{
+    height: min-content;
+    width: min-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.375rem;
+    margin: 1.6875rem 0;
+}
+.socialContainer{
+    height: max-content;
+    width: max-content;
+    background-color: var(--portfolio-white);
+    border-radius: 50%;
+}
+.socialImage{
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 8px;
+}

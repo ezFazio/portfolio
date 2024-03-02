@@ -1,0 +1,17 @@
+[
+  {
+    "id": "linkedin",
+    "url": "https://www.linkedin.com/in/ezequiel-fazio/",
+    "img": "/img/linkedin.svg"
+  },
+  {
+    "id": "x",
+    "url": "https://www.x.com/HelpingYourSoul/",
+    "img": "/img/twitter-x.svg"
+  },
+  {
+    "id": "facebook",
+    "url": "https://www.facebook.com/ezequielfazio/",
+    "img": "/img/facebook.svg"
+  }
+]

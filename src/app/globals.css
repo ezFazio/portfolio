@@ -38,6 +38,12 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --portfolio-dark: #303030;
+  --portfolio-grey: #707070;
+  --portfolio-purple: #480e7e;
+  --portfolio-white: #FFFFFF;
+
+  --portfolio-gradient: linear-gradient(108.35deg, var(--portfolio-purple) -36.03%, var(--portfolio-dark) 128.44%);
 }
 
 @media (prefers-color-scheme: dark) {
