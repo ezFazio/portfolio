@@ -1,0 +1,12 @@
+[
+  {
+    "id": "reactjs",
+    "imgFront": "/img/kitchen-tools-front.jpg",
+    "imgFrontCap": "Plate with utensils",
+    "imgBack": "/img/kitchen-tools-back.jpg",
+    "imgBackCap": "Chocolate cookies on a tray",
+    "title": "Web Catalog",
+    "technologies": "React | NextJS | GraphQL | Bootstrap",
+    "backInfo": "A web catalog for a company specializing in kitchen tools, developed utilizing WordPress as a headless API powered by GraphQL, with ReactJS employed for the frontend interface."
+  }
+]
