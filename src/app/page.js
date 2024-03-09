@@ -10,9 +10,6 @@ export default function Home() {
       <section>
         <Profile/>
       </section>
-      <section className={styles.backgroundDiagonal}>
-        <div className={styles.diagonal}></div>
-      </section>
       <section>
         <Projects />
       </section>
