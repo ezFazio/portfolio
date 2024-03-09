@@ -1,0 +1,182 @@
+.projects {
+    background-color: var(--portfolio-purple-dark);
+    font-size: 16px;
+    font-family: "Courier";
+    height: calc(100vh + 10vw);
+    width: 100%;
+    margin-top: 1rem;
+}
+.projectsContent {
+    width: 100%;
+    padding: 4rem 6rem;
+}
+.projects h1 {
+    font-size: 4.5rem;
+    color: var(--portfolio-white);
+}
+.diagonal {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10vw;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-5deg);
+    background-color: var(--portfolio-dark);
+    z-index: 1;
+    margin-bottom: 5vw;
+}
+.ball {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.5s ease;
+}
+.backgroundDiagonal {
+    background-color: var(--portfolio-purple-dark);
+    margin-left: -0.5vw;
+}
+.textCenter {
+    text-align: center;
+}
+
+.colorWhite {
+    color: #fff;
+}
+
+.textBackground {
+    background-color: var(--portfolio-dark);
+    border-radius: 10px;
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.boxContainer {
+    display: flex;
+    padding: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px 15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1380px) {
+    .boxContainer {
+        flex-direction: row;
+    }
+}
+
+.boxItem {
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    width: 22vw;
+    margin-bottom: 35px;
+    max-width: 400px;
+}
+
+.flipBox {
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+}
+
+.flipBoxFront,
+.flipBoxBack {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    min-height: 475px;
+    -ms-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipBoxFront {
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipBox:hover .flipBoxFront {
+    -ms-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipBoxBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipBox:hover .flipBoxBack {
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flipBox .inner {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    z-index: 2;
+
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    -ms-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+}
+
+.flipBoxHeader {
+    font-size: 1.75rem;
+}
+
+.flipBox p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.flipBoxImg {
+    margin-top: 1.5rem;
+    width: 3rem;
+}
+
+.flipBoxButton {
+    background-color: transparent;
+    border: 2px solid var(--portfolio-white);
+    border-radius: 2px;
+    color: var(--portfolio-white);
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}

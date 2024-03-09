@@ -1,14 +1,3 @@
-.diagonal {
-  position: relative;
-  width: 100%;
-  height: 10vw;
-  top: 0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(-5deg);
+.main{
   background-color: var(--portfolio-dark);
-  z-index: 1;
-}
-.backgroundDiagonal {
-  background: var(--portfolio-purple);
 }

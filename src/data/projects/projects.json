@@ -1,0 +1,26 @@
+[
+  {
+    "id": "web-catalog",
+    "imgFront": "/img/kitchen-tools-front.jpg",
+    "imgBack": "/img/kitchen-tools-back.jpg",
+    "title": "Web Catalog",
+    "technologies": "React | NextJS | GraphQL | Bootstrap",
+    "backInfo": "A web catalog for a company specializing in kitchen tools, developed utilizing WordPress as a headless API powered by GraphQL, with ReactJS employed for the frontend interface."
+  },
+  {
+    "id": "exchange-app",
+    "imgFront": "/img/exchange-front.jpg",
+    "imgBack": "/img/exchange-back.jpg",
+    "title": "Exchange app",
+    "technologies": "VueJS | NuxtJS | Vuex | Tailwind",
+    "backInfo": "An exchange web app with user management, stock value graphs, stock trading, and dynamic search."
+  },
+  {
+    "id": "car-app",
+    "imgFront": "/img/remisse-front.jpg",
+    "imgBack": "/img/remisse-back.jpg",
+    "title": "Car service Management",
+    "technologies": "React | NextJS | Redux | MaterialUI",
+    "backInfo": "Designed to empower users, the system generates invoices, manages vehicles, and presents comprehensive data through charts on a dynamic dashboard."
+  }
+]
