@@ -1,0 +1,42 @@
+[
+  {
+    "id": "react",
+    "name": "React"
+  },
+  {
+    "id": "vuejs",
+    "name": "VueJS"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "id": "php",
+    "name": "PHP"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL"
+  },
+  {
+    "id": "nextjs",
+    "name": "NextJS"
+  },
+  {
+    "id": "html5",
+    "name": "HTML5"
+  },
+  {
+    "id": "css3",
+    "name": "CSS3"
+  },
+  {
+    "id": "sass",
+    "name": "SASS"
+  },
+  {
+    "id": "wordpress",
+    "name": "Wordpress"
+  }
+]

@@ -16,3 +16,8 @@
     border: none;
     border-radius: 100px;
 }
+
+.profileCard .downloadButton:hover{
+    cursor: pointer;
+    background: var(--portfolio-gradient-invert);
+}
