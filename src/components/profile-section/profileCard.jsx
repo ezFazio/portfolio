@@ -1,13 +1,13 @@
 import Socials from "../shared/socials"
 import styles from "./profileCard.module.css"
 import ProfileInfo from "./profileInfo"
-import Quote from "./quote"
+import Introduction from "./introduction"
 
 
 const ProfileCard = () => {
   return (
     <div className={styles.profileCard}>
-      <Quote />
+      <Introduction />
       <ProfileInfo />
       <Socials />
       <button className={styles.downloadButton}>

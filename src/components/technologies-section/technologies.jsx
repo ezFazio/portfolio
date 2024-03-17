@@ -1,12 +1,17 @@
 import styles from "./technologies.module.css"
+import TechnologiesList from "./technologiesList";
 
 
 const Technologies = () => {
-    return (
-      <div className={styles.technologies}>
-        <h1>Acá irán las tecnologías</h1>
+  return (
+    <div className={styles.technologies}>
+      <div className={styles.backgroundImageContainer}>
+        <h2>Technologies</h2>
+        <img className={styles.backgroundImage} src="/img/technologies.jpg"></img>
       </div>
-    )
-  }
-  
-  export default Technologies;
+        <TechnologiesList />
+    </div>
+  )
+}
+
+export default Technologies;

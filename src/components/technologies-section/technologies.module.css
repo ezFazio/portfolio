@@ -1,11 +1,33 @@
 .technologies{
+    position: relative;
+    font-family: "Courier";
     background-color: var(--portfolio-purple);
     font-size: 16px;
-    height: 100vh;
-    width: 100%;
-    padding: 2rem 3rem;
 }
-.technologies h1{
-    font-size: 2rem;
+.backgroundImageContainer{
+    position: sticky;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.backgroundImageContainer h2 {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    left: 6rem;
+    font-size: 4.5rem;
     color: var(--portfolio-white);
+}
+
+.backgroundImage{
+    position: absolute;
+    display: block;
+    top: 17vh;
+    left: 17vw;
+    width: 66vw;
+    height: 66vh;
+    object-position: center center;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
