@@ -7,15 +7,14 @@
 .backgroundImageContainer{
     position: sticky;
     display: block;
-    width: 100vw;
+    width: max-content;
     height: 100vh;
     top: 0;
     left: 0;
 }
 .backgroundImageContainer h2 {
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-left: 6rem;
-    left: 6rem;
     font-size: 4.5rem;
     color: var(--portfolio-white);
 }

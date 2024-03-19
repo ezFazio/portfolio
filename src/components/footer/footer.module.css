@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    background-color: var(--portfolio-dark);
+    justify-content: space-between;
+    bottom: 0;
+    font-size: 16px;
+    font-family: "Courier";
+    color: var(--portfolio-white);
+    padding: 2rem 3rem;
+    z-index: -1;
+}
+.footer h2 {
+    font-size: 2rem;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columnLeft{
+    flex-direction: column;
+}
+.columnRight,
+.columnLeft {
+    width: 20%;
+}
+.columnRight {
+    justify-content: flex-end;
+    align-content: flex-start;
+    height: 100%;
+}
+.columnCenter {
+    justify-content: center;
+    align-content: flex-end;
+}
+.footer .logoImage {
+    width: 25%;
+}
