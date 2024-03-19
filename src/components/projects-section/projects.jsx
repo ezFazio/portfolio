@@ -5,7 +5,6 @@ const Projects = () => {
 
   return (
     <div className={styles.projects}>
-      <div className={styles.diagonal}></div>
     <div className={styles.projectsContent}>
       <h1>Projects</h1>
       <div className={styles.boxContainer}>

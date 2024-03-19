@@ -7,10 +7,15 @@
     margin: 1.6875rem 0;
 }
 .socialContainer{
+    position: relative;
     height: 2.5rem;
     width: 2.5rem;
     background-color: var(--portfolio-white);
     border-radius: 50%;
+}
+.socialContainer:hover{
+    top: -2px;
+    left: -2px;
 }
 .socialImage{
     height: 2.5rem;

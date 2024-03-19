@@ -2,7 +2,7 @@ import styles from "./socials.module.css"
 import socialNetworks from "@/data/shared/socialNetworks.json"
 import Link from "next/link"
 
-const Socials = (section) => {
+const Socials = () => {
 
   return (
     <div className={styles.socials}>

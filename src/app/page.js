@@ -9,13 +9,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section>
-        <Profile/>
+        <Profile />
       </section>
+      <div className={styles.diagonal}></div>
       <section>
         <Projects />
       </section>
       <section>
-        <Technologies/>
+        <Technologies />
       </section>
       <section>
         <Quote />
