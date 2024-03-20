@@ -38,6 +38,7 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --portfolio-black: #000000;
   --portfolio-dark: #303030;
   --portfolio-grey: #707070;
   --portfolio-purple-dark: #25093f; /*#480e7e;*/
@@ -95,6 +96,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  scroll-behavior:'smooth';
 }
 
 body {
