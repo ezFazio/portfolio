@@ -1,0 +1,22 @@
+[
+  {
+    "id": "quote-1",
+    "autor": "Santosh Kalwar",
+    "text": "Coding like poetry should be short and concise."
+  },
+  {
+    "id": "quote-2",
+    "autor": "Cory House",
+    "text": "Code is like humor. When you have to explain it, it’s bad."
+  },
+  {
+    "id": "quote-3",
+    "autor": "Oscar Wilde",
+    "text": "Experience is the name everyone gives to their mistakes. "
+  },
+  {
+    "id": "quote-4",
+    "autor": "Anonymus",
+    "text": "Software and cathedrals are much the same — first we build them, then we pray."
+  }
+]
