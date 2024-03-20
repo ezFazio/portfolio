@@ -1,6 +1,7 @@
 import styles from "./profile.module.css"
 import ProfileCard from "./profileCard"
 import ProfileTechnologies from "./profileTechnologies"
+import ScrollDownButton from "./scrollDownButton"
 
 
 const Profile = () => {
@@ -18,6 +19,7 @@ const Profile = () => {
       <div className={styles.profileTechContainer}>
         <ProfileTechnologies />
       </div>
+      <ScrollDownButton />
     </div>
   )
 }
