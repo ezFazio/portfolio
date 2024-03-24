@@ -12,10 +12,8 @@ const ScrollDownButton = () => {
       setShowScrollButton(scrollY === 0);
     };
 
-    // Agregar el evento de scroll
     window.addEventListener("scroll", handleScroll);
 
-    // Limpiar el evento cuando el componente se desmonte
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

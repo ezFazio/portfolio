@@ -8,7 +8,7 @@ const ProfileTechnologies = () => {
       <h2 className={styles.profileTechTitle}>This site was made with</h2>
       <div className={styles.techsContainer}>
         {
-          portfolioTechnologies.map((element, key) => (//key={"link-socials-" + element.id + "-" + key}
+          portfolioTechnologies.map((element, key) => (
             <div
               className={styles.profileTechContainer}
               key={"profileTechnologies-" + element.id + "-" + key}
