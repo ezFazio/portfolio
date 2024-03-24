@@ -1,7 +1,6 @@
 .profile {
     background-color: var(--portfolio-dark);
     position:relative;
-    font-size: 16px;
     height: 100vh;
     width: 100%;
     padding: 2rem 3rem;
@@ -25,11 +24,17 @@
 }
 .profilePhoto {
     width: 28vw;
-    max-width: 550px;
+    max-width: 34.375rem;
     border-radius: 50%;
 }
 .profileTechContainer {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .profile {
+        padding: 2rem 1rem;
+    }
 }

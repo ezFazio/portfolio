@@ -1,6 +1,5 @@
 .introduction{
     background: var(--portfolio-gradient);
-    font-size: 16px;
     font-family: 'Roboto';
     font-weight: 700;
     height: min-content;
@@ -12,3 +11,4 @@
     font-size: 1.375rem;
     color: var(--portfolio-white);
 }
+
