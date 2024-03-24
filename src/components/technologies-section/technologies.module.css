@@ -2,7 +2,6 @@
     position: relative;
     font-family: "Courier";
     background-color: var(--portfolio-purple);
-    font-size: 16px;
 }
 .backgroundImageContainer{
     position: sticky;
@@ -14,7 +13,7 @@
 }
 .backgroundImageContainer h2 {
     padding-top: 3rem;
-    padding-left: 6rem;
+    padding-left: 4rem;
     font-size: 4.5rem;
     color: var(--portfolio-white);
 }
@@ -22,10 +21,10 @@
 .backgroundImage{
     position: absolute;
     display: block;
-    top: 17vh;
-    left: 17vw;
-    width: 66vw;
-    height: 66vh;
+    top: 16vh;
+    left: 14vw;
+    width: 72vw;
+    height: 68vh;
     object-position: center center;
     overflow-clip-margin: content-box;
     overflow: clip;
